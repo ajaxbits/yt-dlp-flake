@@ -1,0 +1,30 @@
+name: Update Source
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Runs every day at 12:00 PM UTC
+    - cron: '0 12 * * *'
+
+jobs:
+  daily-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install nix
+        uses: canidae-solutions/lix-quick-install-action@v3
+
+      - name: Update lock
+        shell: bash
+        run: |
+          set -euxo pipefail
+          nix run .#default.lock
+          nix build
+
+      - name: Run tests
+        shell: bash
+        run: |
+          set -euxo pipefail
