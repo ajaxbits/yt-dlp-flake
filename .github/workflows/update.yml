@@ -24,7 +24,24 @@ jobs:
           nix run .#default.lock
           nix build
 
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          repository: yt-dlp/yt-dlp
+          path: yt-dlp-src
+
+      - name: Install the latest version of uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          activate-environment: true
+          working-directory: yt-dlp-src
+
       - name: Run tests
         shell: bash
+        working-directory: yt-dlp-src
         run: |
           set -euxo pipefail
+          rm -fr yt_dlp
+          ln -rs ../result/lib/python3.12/site-packages/yt_dlp ./yt_dlp
+          uv pip install pytest pytest-rerunfailures
+          uv run pytest
