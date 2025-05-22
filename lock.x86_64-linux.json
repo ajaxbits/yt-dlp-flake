@@ -1,0 +1,82 @@
+{
+  "fetchPipMetadata": {
+    "sources": {
+      "brotli": {
+        "is_direct": false,
+        "sha256": "81de08ac11bcb85841e440c13611c00b67d3bf82698314928d0b676362546724",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/2f/c2/f9e977608bdf958650638c3f1e28f85a1b075f075ebbe77db8555463787b/Brotli-1.1.0.tar.gz",
+        "version": "1.1.0"
+      },
+      "certifi": {
+        "is_direct": false,
+        "sha256": "0a816057ea3cdefcef70270d2c515e4506bbc954f417fa5ade2021213bb8f0c6",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/e8/9e/c05b3920a3b7d20d3d3310465f50348e5b3694f4f88c6daf736eef3024c4/certifi-2025.4.26.tar.gz",
+        "version": "2025.4.26"
+      },
+      "charset-normalizer": {
+        "is_direct": false,
+        "sha256": "5baececa9ecba31eff645232d59845c07aa030f0c81ee70184a90d35099a0e63",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/e4/33/89c2ced2b67d1c2a61c19c6751aa8902d46ce3dacb23600a283619f5a12d/charset_normalizer-3.4.2.tar.gz",
+        "version": "3.4.2"
+      },
+      "idna": {
+        "is_direct": false,
+        "sha256": "12f65c9b470abda6dc35cf8e63cc574b1c52b11df2c86030af0ac09b01b13ea9",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/f1/70/7703c29685631f5a7590aa73f1f1d3fa9a380e654b86af429e0934a32f7d/idna-3.10.tar.gz",
+        "version": "3.10"
+      },
+      "mutagen": {
+        "is_direct": false,
+        "sha256": "719fadef0a978c31b4cf3c956261b3c58b6948b32023078a2117b1de09f0fc99",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/81/e6/64bc71b74eef4b68e61eb921dcf72dabd9e4ec4af1e11891bbd312ccbb77/mutagen-1.47.0.tar.gz",
+        "version": "1.47.0"
+      },
+      "pycryptodomex": {
+        "is_direct": false,
+        "sha256": "71909758f010c82bc99b0abf4ea12012c98962fbf0583c2164f8b84533c2e4da",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/c9/85/e24bf90972a30b0fcd16c73009add1d7d7cd9140c2498a68252028899e41/pycryptodomex-3.23.0.tar.gz",
+        "version": "3.23.0"
+      },
+      "requests": {
+        "is_direct": false,
+        "sha256": "55365417734eb18255590a9ff9eb97e9e1da868d4ccd6402399eaf68af20a760",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/63/70/2bf7780ad2d390a8d301ad0b550f1581eadbd9a20f896afe06353c2a2913/requests-2.32.3.tar.gz",
+        "version": "2.32.3"
+      },
+      "urllib3": {
+        "is_direct": false,
+        "sha256": "414bc6535b787febd7567804cc015fee39daab8ad86268f1310a9250697de466",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/8a/78/16493d9c386d8e60e442a35feac5e00f0913c0f4b7c217c11e8ec2ff53e0/urllib3-2.4.0.tar.gz",
+        "version": "2.4.0"
+      },
+      "websockets": {
+        "is_direct": false,
+        "sha256": "82544de02076bafba038ce055ee6412d68da13ab47f0c60cab827346de828dee",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/21/e6/26d09fab466b7ca9c7737474c52be4f76a40301b08362eb2dbc19dcc16c1/websockets-15.0.1.tar.gz",
+        "version": "15.0.1"
+      },
+      "yt-dlp": {
+        "is_direct": true,
+        "sha256": "db33b1cc09850ecba8fb82bae52f4f8517aa658a8a163a9aaca0032e69943fe9",
+        "type": "url",
+        "url": "https://github.com/yt-dlp/yt-dlp/archive/master.tar.gz",
+        "version": "2025.5.22"
+      }
+    },
+    "targets": {
+      "default": {
+        "yt-dlp": []
+      }
+    }
+  },
+  "invalidationHash": "b4e1c311c40a04c8cfbb02bc8c9230523688eaa02f6c72bf46e28ba38f2e59de"
+}
