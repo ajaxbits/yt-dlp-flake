@@ -10,10 +10,10 @@
       },
       "certifi": {
         "is_direct": false,
-        "sha256": "0a816057ea3cdefcef70270d2c515e4506bbc954f417fa5ade2021213bb8f0c6",
+        "sha256": "c1d2ec05395148ee10cf672ffc28cd37ea0ab0d99f9cc74c43e588cbd111b079",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/e8/9e/c05b3920a3b7d20d3d3310465f50348e5b3694f4f88c6daf736eef3024c4/certifi-2025.4.26.tar.gz",
-        "version": "2025.4.26"
+        "url": "https://files.pythonhosted.org/packages/de/8a/c729b6b60c66a38f590c4e774decc4b2ec7b0576be8f1aa984a53ffa812a/certifi-2025.7.9.tar.gz",
+        "version": "2025.7.9"
       },
       "charset-normalizer": {
         "is_direct": false,
@@ -52,10 +52,10 @@
       },
       "urllib3": {
         "is_direct": false,
-        "sha256": "414bc6535b787febd7567804cc015fee39daab8ad86268f1310a9250697de466",
+        "sha256": "3fc47733c7e419d4bc3f6b3dc2b4f890bb743906a30d56ba4a5bfa4bbff92760",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/8a/78/16493d9c386d8e60e442a35feac5e00f0913c0f4b7c217c11e8ec2ff53e0/urllib3-2.4.0.tar.gz",
-        "version": "2.4.0"
+        "url": "https://files.pythonhosted.org/packages/15/22/9ee70a2574a4f4599c47dd506532914ce044817c7752a79b6a51286319bc/urllib3-2.5.0.tar.gz",
+        "version": "2.5.0"
       },
       "websockets": {
         "is_direct": false,
@@ -66,10 +66,10 @@
       },
       "yt-dlp": {
         "is_direct": true,
-        "sha256": "79a37c601643277a21c228ffae7724fba6ba9455dfa1ac9d371217022759a0d8",
+        "sha256": "eab9b6f2878b3696cb1ff587a3db2737ba9660d7af1132e6cc01fcc921f2f7f7",
         "type": "url",
         "url": "https://github.com/yt-dlp/yt-dlp/archive/master.tar.gz",
-        "version": "2025.6.9"
+        "version": "2025.6.30"
       }
     },
     "targets": {
