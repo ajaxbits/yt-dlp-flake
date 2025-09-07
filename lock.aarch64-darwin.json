@@ -10,17 +10,17 @@
       },
       "certifi": {
         "is_direct": false,
-        "sha256": "c1d2ec05395148ee10cf672ffc28cd37ea0ab0d99f9cc74c43e588cbd111b079",
+        "sha256": "e564105f78ded564e3ae7c923924435e1daa7463faeab5bb932bc53ffae63407",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/de/8a/c729b6b60c66a38f590c4e774decc4b2ec7b0576be8f1aa984a53ffa812a/certifi-2025.7.9.tar.gz",
-        "version": "2025.7.9"
+        "url": "https://files.pythonhosted.org/packages/dc/67/960ebe6bf230a96cda2e0abcf73af550ec4f090005363542f0765df162e0/certifi-2025.8.3.tar.gz",
+        "version": "2025.8.3"
       },
       "charset-normalizer": {
         "is_direct": false,
-        "sha256": "5baececa9ecba31eff645232d59845c07aa030f0c81ee70184a90d35099a0e63",
+        "sha256": "6fce4b8500244f6fcb71465d4a4930d132ba9ab8e71a7859e6a5d59851068d14",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/e4/33/89c2ced2b67d1c2a61c19c6751aa8902d46ce3dacb23600a283619f5a12d/charset_normalizer-3.4.2.tar.gz",
-        "version": "3.4.2"
+        "url": "https://files.pythonhosted.org/packages/83/2d/5fd176ceb9b2fc619e63405525573493ca23441330fcdaee6bef9460e924/charset_normalizer-3.4.3.tar.gz",
+        "version": "3.4.3"
       },
       "idna": {
         "is_direct": false,
@@ -45,10 +45,10 @@
       },
       "requests": {
         "is_direct": false,
-        "sha256": "27d0316682c8a29834d3264820024b62a36942083d52caf2f14c0591336d3422",
+        "sha256": "dbba0bac56e100853db0ea71b82b4dfd5fe2bf6d3754a8893c3af500cec7d7cf",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/e1/0a/929373653770d8a0d7ea76c37de6e41f11eb07559b103b1c02cafb3f7cf8/requests-2.32.4.tar.gz",
-        "version": "2.32.4"
+        "url": "https://files.pythonhosted.org/packages/c9/74/b3ff8e6c8446842c3f5c837e9c3dfcfe2018ea6ecef224c710c85ef728f4/requests-2.32.5.tar.gz",
+        "version": "2.32.5"
       },
       "urllib3": {
         "is_direct": false,
@@ -66,10 +66,10 @@
       },
       "yt-dlp": {
         "is_direct": true,
-        "sha256": "eab9b6f2878b3696cb1ff587a3db2737ba9660d7af1132e6cc01fcc921f2f7f7",
+        "sha256": "e7b9f8a35f643cd8d987e6ea44ad25d413b816bee614f7a9bc57f87607824012",
         "type": "url",
         "url": "https://github.com/yt-dlp/yt-dlp/archive/master.tar.gz",
-        "version": "2025.6.30"
+        "version": "2025.9.5"
       }
     },
     "targets": {
