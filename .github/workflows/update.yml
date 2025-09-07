@@ -6,18 +6,25 @@ on:
     # Runs every day at 12:00 PM UTC
     - cron: '0 12 * * *'
 
+permissions:
+  contents: write
+
 jobs:
-  daily-job:
+  update:
     strategy:
       fail-fast: false
       matrix:
-        os:
-          - ubuntu-latest # x86_64-linux
-          - ubuntu-24.04-arm  # aarch64-linux
-          - macos-13 # x86_64-darwin
-          - macos-latest # aarch64-darwin
+        include:
+          - platform: x86_64-linux
+            runs-on: ubuntu-latest
+          - platform: aarch64-linux
+            runs-on: ubuntu-24.04-arm
+          - platform: x86_64-darwin
+            runs-on: macos-13
+          - platform: aarch64-darwin
+            runs-on: macos-latest
 
-    runs-on: ${{ matrix.os }}
+    runs-on: ${{ matrix.runs-on }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -30,26 +37,36 @@ jobs:
         run: |
           set -euxo pipefail
           nix run .#default.lock
+          git add .
           nix build
 
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - name: Upload lockfile artifact
+        uses: actions/upload-artifact@v4
         with:
-          repository: yt-dlp/yt-dlp
-          path: yt-dlp-src
+          name: lock-${{ matrix.platform }}
+          path: lock.${{ matrix.platform }}.json
+          retention-days: 1
 
-      - name: Install the latest version of uv
-        uses: astral-sh/setup-uv@v6
+  commit:
+    needs: update
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
         with:
-          activate-environment: true
-          working-directory: yt-dlp-src
+          ref: nightly
+          token: ${{ secrets.GITHUB_TOKEN }}   # needs contents: write
 
-      - name: Run tests
-        shell: bash
-        working-directory: yt-dlp-src
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: lock-*
+          merge-multiple: true
+
+      - name: Commit & push
         run: |
-          set -euxo pipefail
-          rm -fr yt_dlp
-          ln -rs ../result/lib/python3.12/site-packages/yt_dlp ./yt_dlp
-          uv pip install pytest pytest-rerunfailures
-          uv run pytest
+          git config user.name  'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add lock.*.json
+          git diff --cached --quiet || (
+            git commit -m "chore: update lockfiles"
+            git push origin nightly
+          )
