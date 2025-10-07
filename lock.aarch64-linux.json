@@ -10,10 +10,10 @@
       },
       "certifi": {
         "is_direct": false,
-        "sha256": "e564105f78ded564e3ae7c923924435e1daa7463faeab5bb932bc53ffae63407",
+        "sha256": "47c09d31ccf2acf0be3f701ea53595ee7e0b8fa08801c6624be771df09ae7b43",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/dc/67/960ebe6bf230a96cda2e0abcf73af550ec4f090005363542f0765df162e0/certifi-2025.8.3.tar.gz",
-        "version": "2025.8.3"
+        "url": "https://files.pythonhosted.org/packages/4c/5b/b6ce21586237c77ce67d01dc5507039d444b630dd76611bbca2d8e5dcd91/certifi-2025.10.5.tar.gz",
+        "version": "2025.10.5"
       },
       "charset-normalizer": {
         "is_direct": false,
@@ -66,10 +66,10 @@
       },
       "yt-dlp": {
         "is_direct": true,
-        "sha256": "b184add3e494d0ca10f3e984789faec226cca147992de697737cea0e4376876b",
+        "sha256": "6936d26198f377ca5a8f9783243222495667e117b030d5cb6f56989b62ada67f",
         "type": "url",
         "url": "https://github.com/yt-dlp/yt-dlp/archive/master.tar.gz",
-        "version": "2025.9.5"
+        "version": "2025.9.26"
       }
     },
     "targets": {
