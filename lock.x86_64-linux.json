@@ -17,10 +17,10 @@
       },
       "charset-normalizer": {
         "is_direct": false,
-        "sha256": "6fce4b8500244f6fcb71465d4a4930d132ba9ab8e71a7859e6a5d59851068d14",
+        "sha256": "94537985111c35f28720e43603b8e7b43a6ecfb2ce1d3058bbe955b73404e21a",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/83/2d/5fd176ceb9b2fc619e63405525573493ca23441330fcdaee6bef9460e924/charset_normalizer-3.4.3.tar.gz",
-        "version": "3.4.3"
+        "url": "https://files.pythonhosted.org/packages/13/69/33ddede1939fdd074bce5434295f38fae7136463422fe4fd3e0e89b98062/charset_normalizer-3.4.4.tar.gz",
+        "version": "3.4.4"
       },
       "idna": {
         "is_direct": false,
@@ -66,7 +66,7 @@
       },
       "yt-dlp": {
         "is_direct": true,
-        "sha256": "72ab4b7ac1dcbe1e3323c4202ec5f0ca40be2a0684589255c3113b60b52ddc4d",
+        "sha256": "61ced6aea414073cbe3a46818fde98122e4c25542b7675c90dae1e2b033e8098",
         "type": "url",
         "url": "https://github.com/yt-dlp/yt-dlp/archive/master.tar.gz",
         "version": "2025.9.26"
