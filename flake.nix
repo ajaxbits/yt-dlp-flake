@@ -1,17 +1,17 @@
 {
   inputs = {
     dream2nix.url = "github:nix-community/dream2nix";
-    nixpkgs.follows = "dream2nix/nixpkgs";
+    unstable.url = "github:NixOS/nixpkgs/nixos-unstable";
   };
 
   outputs =
     {
       self,
       dream2nix,
-      nixpkgs,
+      unstable,
     }:
     let
-      eachSystem = nixpkgs.lib.genAttrs [
+      eachSystem = unstable.lib.genAttrs [
         "aarch64-darwin"
         "aarch64-linux"
         "x86_64-darwin"
@@ -21,7 +21,7 @@
     {
       packages = eachSystem (system: {
         default = dream2nix.lib.evalModules {
-          packageSets.nixpkgs = nixpkgs.legacyPackages.${system};
+          packageSets.nixpkgs = unstable.legacyPackages.${system};
           modules = [
             ./package.nix
             {
