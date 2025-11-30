@@ -3,17 +3,17 @@
     "sources": {
       "brotli": {
         "is_direct": false,
-        "sha256": "81de08ac11bcb85841e440c13611c00b67d3bf82698314928d0b676362546724",
+        "sha256": "e310f77e41941c13340a95976fe66a8a95b01e783d430eeaf7a2f87e0a57dd0a",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/2f/c2/f9e977608bdf958650638c3f1e28f85a1b075f075ebbe77db8555463787b/Brotli-1.1.0.tar.gz",
-        "version": "1.1.0"
+        "url": "https://files.pythonhosted.org/packages/f7/16/c92ca344d646e71a43b8bb353f0a6490d7f6e06210f8554c8f874e454285/brotli-1.2.0.tar.gz",
+        "version": "1.2.0"
       },
       "certifi": {
         "is_direct": false,
-        "sha256": "47c09d31ccf2acf0be3f701ea53595ee7e0b8fa08801c6624be771df09ae7b43",
+        "sha256": "d8ab5478f2ecd78af242878415affce761ca6bc54a22a27e026d7c25357c3316",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/4c/5b/b6ce21586237c77ce67d01dc5507039d444b630dd76611bbca2d8e5dcd91/certifi-2025.10.5.tar.gz",
-        "version": "2025.10.5"
+        "url": "https://files.pythonhosted.org/packages/a2/8c/58f469717fa48465e4a50c014a0400602d3c437d7c0c468e17ada824da3a/certifi-2025.11.12.tar.gz",
+        "version": "2025.11.12"
       },
       "charset-normalizer": {
         "is_direct": false,
@@ -66,10 +66,17 @@
       },
       "yt-dlp": {
         "is_direct": true,
-        "sha256": "1c23b904058981752c1f0625d570b004e1cdb9a7b9657939a3cb1f5055cea3fc",
+        "sha256": "a193b9aa172b6fb779cbfdf0428757742f01f6c678647de32d3bf5a432e1a40b",
         "type": "url",
         "url": "https://github.com/yt-dlp/yt-dlp/archive/master.tar.gz",
-        "version": "2025.10.22"
+        "version": "2025.11.12"
+      },
+      "yt-dlp-ejs": {
+        "is_direct": false,
+        "sha256": "7f2119eb02864800f651fa33825ddfe13d152a1f730fa103d9864f091df24227",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/fe/02/58b16dee54ad7f9f8c4b5b490960478dbbd31a27da4be2c876d8c09ac8e3/yt_dlp_ejs-0.3.1.tar.gz",
+        "version": "0.3.1"
       }
     },
     "targets": {
