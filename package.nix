@@ -25,7 +25,12 @@ in
     {
       python = nixpkgs.python3;
       inherit (nixpkgs.python3Packages) hatchling;
-      inherit (nixpkgs) atomicparsley ffmpeg-headless rtmpdump;
+      inherit (nixpkgs)
+        atomicparsley
+        bun
+        ffmpeg-headless
+        rtmpdump
+        ;
     };
 
   inherit name version;
@@ -34,17 +39,18 @@ in
     pyproject = true;
     makeWrapperArgs =
       let
-        packagesToBinPath = with config.deps; [
+        runtimeDeps = with config.deps; [
           atomicparsley # thumbnails
           ffmpeg-headless # transcoding
           rtmpdump # RTMP stuff
         ];
       in
       [
-        ''--prefix PATH : "${lib.makeBinPath packagesToBinPath}"''
+        ''--prefix PATH : "${lib.makeBinPath runtimeDeps}"''
       ];
   };
-  mkDerivation.nativeBuildInputs = [ config.deps.hatchling ];
+  mkDerivation.nativeBuildInputs = with config.deps; [ hatchling ];
+
   paths.lockFile = "lock.${config.deps.stdenv.system}.json";
 
   pip = {
@@ -54,6 +60,9 @@ in
     pipFlags = [
       "--no-binary"
       ":all:"
+    ];
+    nativeBuildInputs = with config.deps; [
+      bun # needed by yt-dlp when building and locking
     ];
   };
 }
