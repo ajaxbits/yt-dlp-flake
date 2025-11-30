@@ -27,7 +27,7 @@ in
       inherit (nixpkgs.python3Packages) hatchling;
       inherit (nixpkgs)
         atomicparsley
-        bun
+        deno
         ffmpeg-headless
         rtmpdump
         ;
@@ -41,6 +41,7 @@ in
       let
         runtimeDeps = with config.deps; [
           atomicparsley # thumbnails
+          deno # EJS https://github.com/yt-dlp/yt-dlp/wiki/EJS
           ffmpeg-headless # transcoding
           rtmpdump # RTMP stuff
         ];
@@ -62,7 +63,7 @@ in
       ":all:"
     ];
     nativeBuildInputs = with config.deps; [
-      bun # needed by yt-dlp when building and locking
+      deno # needed by EJS when locking
     ];
   };
 }
