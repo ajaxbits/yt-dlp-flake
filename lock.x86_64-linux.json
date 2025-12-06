@@ -52,10 +52,10 @@
       },
       "urllib3": {
         "is_direct": false,
-        "sha256": "3fc47733c7e419d4bc3f6b3dc2b4f890bb743906a30d56ba4a5bfa4bbff92760",
+        "sha256": "cb9bcef5a4b345d5da5d145dc3e30834f58e8018828cbc724d30b4cb7d4d49f1",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/15/22/9ee70a2574a4f4599c47dd506532914ce044817c7752a79b6a51286319bc/urllib3-2.5.0.tar.gz",
-        "version": "2.5.0"
+        "url": "https://files.pythonhosted.org/packages/1c/43/554c2569b62f49350597348fc3ac70f786e3c32e7f19d266e19817812dd3/urllib3-2.6.0.tar.gz",
+        "version": "2.6.0"
       },
       "websockets": {
         "is_direct": false,
@@ -66,7 +66,7 @@
       },
       "yt-dlp": {
         "is_direct": true,
-        "sha256": "ee46612f09db63c596ece04e37f5ac9b9164276f959751ce02c96ad43f5987ad",
+        "sha256": "bafb64e59d41608163b13f08833870e96b618cc0466a4e1ae369ce612cf3de0d",
         "type": "url",
         "url": "https://github.com/yt-dlp/yt-dlp/archive/master.tar.gz",
         "version": "2025.11.12"
