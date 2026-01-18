@@ -27,10 +27,14 @@ in
       inherit (nixpkgs.python3Packages) hatchling;
       inherit (nixpkgs)
         atomicparsley
+        bun
+        pnpm
         deno
         ffmpeg-headless
         rtmpdump
         ;
+
+      node = nixpkgs.nodejs;
     };
 
   inherit name version;
