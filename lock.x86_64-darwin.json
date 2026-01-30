@@ -10,10 +10,10 @@
       },
       "certifi": {
         "is_direct": false,
-        "sha256": "d8ab5478f2ecd78af242878415affce761ca6bc54a22a27e026d7c25357c3316",
+        "sha256": "ac726dd470482006e014ad384921ed6438c457018f4b3d204aea4281258b2120",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/a2/8c/58f469717fa48465e4a50c014a0400602d3c437d7c0c468e17ada824da3a/certifi-2025.11.12.tar.gz",
-        "version": "2025.11.12"
+        "url": "https://files.pythonhosted.org/packages/e0/2d/a891ca51311197f6ad14a7ef42e2399f36cf2f9bd44752b3dc4eab60fdc5/certifi-2026.1.4.tar.gz",
+        "version": "2026.1.4"
       },
       "charset-normalizer": {
         "is_direct": false,
@@ -52,31 +52,31 @@
       },
       "urllib3": {
         "is_direct": false,
-        "sha256": "cb9bcef5a4b345d5da5d145dc3e30834f58e8018828cbc724d30b4cb7d4d49f1",
+        "sha256": "1b62b6884944a57dbe321509ab94fd4d3b307075e0c2eae991ac71ee15ad38ed",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/1c/43/554c2569b62f49350597348fc3ac70f786e3c32e7f19d266e19817812dd3/urllib3-2.6.0.tar.gz",
-        "version": "2.6.0"
+        "url": "https://files.pythonhosted.org/packages/c7/24/5f1b3bdffd70275f6661c76461e25f024d5a38a46f04aaca912426a2b1d3/urllib3-2.6.3.tar.gz",
+        "version": "2.6.3"
       },
       "websockets": {
         "is_direct": false,
-        "sha256": "82544de02076bafba038ce055ee6412d68da13ab47f0c60cab827346de828dee",
+        "sha256": "5f6261a5e56e8d5c42a4497b364ea24d94d9563e8fbd44e78ac40879c60179b5",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/21/e6/26d09fab466b7ca9c7737474c52be4f76a40301b08362eb2dbc19dcc16c1/websockets-15.0.1.tar.gz",
-        "version": "15.0.1"
+        "url": "https://files.pythonhosted.org/packages/04/24/4b2031d72e840ce4c1ccb255f693b15c334757fc50023e4db9537080b8c4/websockets-16.0.tar.gz",
+        "version": "16.0"
       },
       "yt-dlp": {
         "is_direct": true,
-        "sha256": "sha256-w9XFOZYbWplw+ZN2RAEUEyHSg6KVOVd0I/hM1b7sWvY=",
+        "sha256": "cb7723f87270eded80f13a38dea4843e7a1b941298c21484ebc0d7078ee0329e",
         "type": "url",
         "url": "https://github.com/yt-dlp/yt-dlp/archive/master.tar.gz",
-        "version": "2025.11.12"
+        "version": "2026.1.29"
       },
       "yt-dlp-ejs": {
         "is_direct": false,
-        "sha256": "7f2119eb02864800f651fa33825ddfe13d152a1f730fa103d9864f091df24227",
+        "sha256": "3c67e0beb6f9f3603fbcb56f425eabaa37c52243d90d20ccbcce1dd941cfbd07",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/fe/02/58b16dee54ad7f9f8c4b5b490960478dbbd31a27da4be2c876d8c09ac8e3/yt_dlp_ejs-0.3.1.tar.gz",
-        "version": "0.3.1"
+        "url": "https://files.pythonhosted.org/packages/e9/80/4b6c7f91b373e01cdc18080f41fa399592945abce7db74c2e6d0fb8468db/yt_dlp_ejs-0.4.0.tar.gz",
+        "version": "0.4.0"
       }
     },
     "targets": {
