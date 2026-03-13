@@ -66,17 +66,17 @@
       },
       "yt-dlp": {
         "is_direct": true,
-        "sha256": "fdbbfefa9e7ebeeeee31685472e2f3028256d25cb0db6406de3e8f5ef44ce5bc",
+        "sha256": "c42d8891b969407c34ba3029e6c260c58e9629f8b83bd7c613fca0227302e518",
         "type": "url",
         "url": "https://github.com/yt-dlp/yt-dlp/archive/master.tar.gz",
-        "version": "2026.3.3"
+        "version": "2026.3.13"
       },
       "yt-dlp-ejs": {
         "is_direct": false,
-        "sha256": "8dfae59e418232f485253dcf8e197fefa232423c3af7824fe19e4517b173293b",
+        "sha256": "ecac13eb9ff948da84b39f1030fa03422abaf32dc58a0edd78f5dbcc03843556",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/6b/0d/b9e4ab1b47cdeba0842df634b74b3c0144307640ad5b632a5e189c4ab7ce/yt_dlp_ejs-0.5.0.tar.gz",
-        "version": "0.5.0"
+        "url": "https://files.pythonhosted.org/packages/63/39/57bc2dedbcd4c921fa740fc99f83ada045a219a0e9bb3283b9ab2102e840/yt_dlp_ejs-0.7.0.tar.gz",
+        "version": "0.7.0"
       }
     },
     "targets": {
