@@ -24,10 +24,10 @@
       },
       "idna": {
         "is_direct": false,
-        "sha256": "724e9952cc9e2bd7550ea784adb098d837ab5267ef67a1ab9cf7846bdbdd8254",
+        "sha256": "585ea8fe5d69b9181ec1afba340451fba6ba764af97026f92a91d4eef164a242",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/22/12/2948fbe5513d062169bd91f7d7b1cd97bc8894f32946b71fa39f6e63ca0c/idna-3.12.tar.gz",
-        "version": "3.12"
+        "url": "https://files.pythonhosted.org/packages/ce/cc/762dfb036166873f0059f3b7de4565e1b5bc3d6f28a414c13da27e442f99/idna-3.13.tar.gz",
+        "version": "3.13"
       },
       "mutagen": {
         "is_direct": false,
