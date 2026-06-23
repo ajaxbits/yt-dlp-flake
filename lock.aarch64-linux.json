@@ -31,10 +31,10 @@
       },
       "mutagen": {
         "is_direct": false,
-        "sha256": "719fadef0a978c31b4cf3c956261b3c58b6948b32023078a2117b1de09f0fc99",
+        "sha256": "4933d14b83a2add03c23e04a3c397ffbe44f130403f1256881ee228869aee3bb",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/81/e6/64bc71b74eef4b68e61eb921dcf72dabd9e4ec4af1e11891bbd312ccbb77/mutagen-1.47.0.tar.gz",
-        "version": "1.47.0"
+        "url": "https://files.pythonhosted.org/packages/eb/2e/3e1b17cc655e59faac1008cfdaae2e38f123b9b229f0d1695f9860500d4d/mutagen-1.48.0.tar.gz",
+        "version": "1.48.0"
       },
       "pycryptodomex": {
         "is_direct": false,
