@@ -59,14 +59,14 @@
       },
       "websockets": {
         "is_direct": false,
-        "sha256": "5f6261a5e56e8d5c42a4497b364ea24d94d9563e8fbd44e78ac40879c60179b5",
+        "sha256": "299468cbe42e2b9981134c7c51d99387d8a7bf562b00183b3eec53f882846dad",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/04/24/4b2031d72e840ce4c1ccb255f693b15c334757fc50023e4db9537080b8c4/websockets-16.0.tar.gz",
-        "version": "16.0"
+        "url": "https://files.pythonhosted.org/packages/8c/02/b9a097e1e16fee4e2fd1ec8c39f6a9c5d6257bae8fa12640caf869f54436/websockets-16.1.tar.gz",
+        "version": "16.1"
       },
       "yt-dlp": {
         "is_direct": true,
-        "sha256": "998babd27d2873ac64b695c153748c6ec37a3b8d2401446059a1326693801fd8",
+        "sha256": "d31d5bd1d75393a591e647fe0a489990d12513a1bbeba5022cb54aa718623a49",
         "type": "url",
         "url": "https://github.com/yt-dlp/yt-dlp/archive/master.tar.gz",
         "version": "2026.7.4"
