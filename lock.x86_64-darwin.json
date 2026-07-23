@@ -66,7 +66,7 @@
       },
       "yt-dlp": {
         "is_direct": true,
-        "sha256": "efce6aea49d1f6642b3105f234dbb12896da95893ce0d708f9b6b9d1af120001",
+        "sha256": "56019ccff5e9dd6647132f1d122d647f96cff8e667851adda461f7409302daa5",
         "type": "url",
         "url": "https://github.com/yt-dlp/yt-dlp/archive/master.tar.gz",
         "version": "2026.7.4"
