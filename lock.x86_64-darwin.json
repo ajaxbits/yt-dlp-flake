@@ -59,10 +59,10 @@
       },
       "websockets": {
         "is_direct": false,
-        "sha256": "db234eda965dcce15df96bb9709f587cd87d4d52aaf0e80e2f34ec04c7670c57",
+        "sha256": "6bbe83c4ef52a7533d2d8c6a3512b93722fd0db6bc6bc638d45edd49ef201444",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/21/f7/bc3a25c5ec26ce62ce487690becc2f3710bbc7b33338f005ad390db0b986/websockets-16.1.1.tar.gz",
-        "version": "16.1.1"
+        "url": "https://files.pythonhosted.org/packages/da/ea/c0f7924f7ccf005d6ad1f829971762ae751727497d6db1977ba5a635314f/websockets-17.0.tar.gz",
+        "version": "17.0"
       },
       "yt-dlp": {
         "is_direct": true,
