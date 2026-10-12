@@ -38,10 +38,10 @@
       },
       "pycryptodomex": {
         "is_direct": false,
-        "sha256": "0428f19f13452c6b89bbaf2c530f84f369873811dfa77f0cee0da4f40fb0474f",
+        "sha256": "09081666ffc599976c0b8b29caf2cf82212c0f05bed233c8f8ed53e4f6e1d356",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/4c/25/214ea825a9031f5af2c8b2506ee16701a2560d4712165dd00098dd527bcb/pycryptodomex-3.24.0.tar.gz",
-        "version": "3.24.0"
+        "url": "https://files.pythonhosted.org/packages/f4/e7/50e72301e32acb73a314e663c2014e1ddefc019d5f434ff14ec89861d664/pycryptodomex-3.24.1.tar.gz",
+        "version": "3.24.1"
       },
       "requests": {
         "is_direct": false,
