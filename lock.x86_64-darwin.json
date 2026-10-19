@@ -10,10 +10,10 @@
       },
       "certifi": {
         "is_direct": false,
-        "sha256": "741e2c3b351ddf169a738da9f2c048608ff7f2c5cc02f1ebc6b118bb090d5d55",
+        "sha256": "b9995d97b64d0431a5af837d8ca8cd6238104d1f319f04bd93ea43124d6c861e",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/a3/c2/24167ea9858356b47a87a50d39908bfdb72ceeefe0041586e704e5376b3a/certifi-2026.7.22.tar.gz",
-        "version": "2026.7.22"
+        "url": "https://files.pythonhosted.org/packages/7e/eb/a2aa1ac3ea30dd3f30ca57f40232138b6b0040719316ecb85daf61167771/certifi-2026.10.18.tar.gz",
+        "version": "2026.10.18"
       },
       "charset-normalizer": {
         "is_direct": false,
@@ -59,10 +59,10 @@
       },
       "websockets": {
         "is_direct": false,
-        "sha256": "36c2fb94c990cc2545143b12690e2de6c16300f9dbe5b4f33fa300cf57dc8792",
+        "sha256": "1c7dd93a1c9f89297471493674b1fc1d9467cafd45374f2172213046bdb3a329",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/01/89/3f825ab71c242fffb62ea8fe638741c290f62f8d7aadf8125ff897747af3/websockets-17.2.tar.gz",
-        "version": "17.2"
+        "url": "https://files.pythonhosted.org/packages/30/4b/4692be6d5bf739ed049b3813901c42091f8c054df89d5c089343823dea0d/websockets-17.3.tar.gz",
+        "version": "17.3"
       },
       "yt-dlp": {
         "is_direct": true,
