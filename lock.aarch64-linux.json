@@ -3,10 +3,10 @@
     "sources": {
       "brotli": {
         "is_direct": false,
-        "sha256": "e310f77e41941c13340a95976fe66a8a95b01e783d430eeaf7a2f87e0a57dd0a",
+        "sha256": "02b2f7b5a83485efe448a44ddf7983def05c3bb1dcf917d4f7154070260e13de",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/f7/16/c92ca344d646e71a43b8bb353f0a6490d7f6e06210f8554c8f874e454285/brotli-1.2.0.tar.gz",
-        "version": "1.2.0"
+        "url": "https://files.pythonhosted.org/packages/cf/81/1546c983678a9b4e77cb4718eaedd1b2caf24a6cdbf1eb8775938d22aff7/brotli-1.2.1.tar.gz",
+        "version": "1.2.1"
       },
       "certifi": {
         "is_direct": false,
@@ -66,10 +66,10 @@
       },
       "yt-dlp": {
         "is_direct": true,
-        "sha256": "e8ead66b4ccf7f440dcdd8340b5e17dbd8c7e103c0da55a3fc4c0e95bce50751",
+        "sha256": "b8efaa1f0f7334179899961872f4e7acc1d859a5b6089aa9e666feaf571b6f6e",
         "type": "url",
         "url": "https://github.com/yt-dlp/yt-dlp/archive/master.tar.gz",
-        "version": "2026.08.19"
+        "version": "2026.10.21"
       },
       "yt-dlp-ejs": {
         "is_direct": false,
